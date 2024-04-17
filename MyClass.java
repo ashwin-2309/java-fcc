@@ -1,6 +1,5 @@
 package challenge;
 
-// import Message;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -24,7 +23,7 @@ public class MyClass {
                 "\n\t3. Quit");
         scanner = new Scanner(System.in);
         // Message message = new Message(null, null, id);
-        
+
         int choice = scanner.nextInt();
 
         switch (choice) {
